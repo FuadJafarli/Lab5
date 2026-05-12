@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+  body { display: flex; justify-content: center; align-items: center; min-height: 100vh; background: #eef2f7; }
+  .card { width: 280px; background: #fff; border-radius: 16px; box-shadow: 0 8px 30px rgba(0,0,0,0.12); text-align: center; padding-bottom: 24px; }
+  .banner { height: 110px; background: linear-gradient(135deg, #667eea, #764ba2); border-radius: 16px 16px 0 0; position: relative; }
+  .avatar { width: 85px; height: 85px; background: #3498db; border-radius: 50%; border: 4px solid #fff; position: absolute; bottom: -42px; left: 50%; transform: translateX(-50%); z-index: 10; display: flex; justify-content: center; align-items: center; font-size: 38px; }
+  .dot { width: 16px; height: 16px; background: #2ecc71; border: 3px solid #fff; border-radius: 50%; position: absolute; bottom: 2px; right: 2px; z-index: 11; }
+  .info { margin-top: 52px; padding: 0 16px; }
+  .name { font-size: 20px; font-weight: bold; color: #2c3e50; }
+  .role { font-size: 13px; color: #7f8c8d; margin-top: 4px; }
+  .divider { height: 1px; background: #ecf0f1; margin: 14px 16px; }
+  .stats { display: flex; justify-content: space-around; }
+  .stat-val { font-weight: bold; font-size: 18px; color: #2c3e50; }
+  .stat-lbl { font-size: 11px; color: #95a5a6; }
+  .btns { display: flex; gap: 10px; margin: 16px 16px 0; }
+  .btn1 { flex: 1; padding: 10px; background: #667eea; color: #fff; border: none; border-radius: 8px; cursor: pointer; }
+  .btn2 { flex: 1; padding: 10px; background: transparent; color: #667eea; border: 2px solid #667eea; border-radius: 8px; cursor: pointer; }
+</style>
+</head>
+<body>
+  <div class="card">
+    <div class="banner">
+      <div class="avatar">🧑‍💻<div class="dot"></div></div>
+    </div>
+    <div class="info">
+      <div class="name">Fuad Cəfərli</div>
+      <div class="role">Frontend Developer · DCU</div>
+    </div>
+    <div class="divider"></div>
+    <div class="stats">
+      <div><div class="stat-val">124</div><div class="stat-lbl">Layihə</div></div>
+      <div><div class="stat-val">4.8k</div><div class="stat-lbl">İzləyici</div></div>
+      <div><div class="stat-val">312</div><div class="stat-lbl">İzlənilən</div></div>
+    </div>
+    <div class="btns">
+      <button class="btn1">İzlə</button>
+      <button class="btn2">Mesaj</button>
+    </div>
+  </div>
+</body>
+</html>
